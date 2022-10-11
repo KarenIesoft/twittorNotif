@@ -1,6 +1,7 @@
 var url = window.location.href;
 var swLocation = '/twittor/sw.js';
-let urlapi = "http://192.168.0.4:3000/api/"; //api/
+//let urlapi = "http://192.168.0.4:3000/api/"; //api/
+let urlapi = "https://nodejs-server-notific1.herokuapp.com/api/"; //api/
 var swReg;
 
 if (navigator.serviceWorker) {
@@ -389,7 +390,7 @@ function notificarme() {
 
 }
 
-notificarme();
+//notificarme();
 
 
 // Get Key
